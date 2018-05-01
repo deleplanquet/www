@@ -1,7 +1,7 @@
 
 <?php
 
-require_once 'dbconfig.php';
+require_once 'Dbconfig.php';
 if($user->is_loggedin()!="")
 {
  $user->redirect('home.php');
